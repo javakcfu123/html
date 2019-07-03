@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function fun(){
+				var s=document.getElementById("pwd").value;
+				if(s.length<6 ||s.length>8){
+					alert("请输入6-8位密码");
+				}else{
+					alert("输入正确");
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" name="pwd" id="pwd"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="button" value="按钮" onclick="fun()"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

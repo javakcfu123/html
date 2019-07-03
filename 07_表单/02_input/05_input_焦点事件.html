@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function fun_focus(){
+				document.getElementById("name").value="";
+			}
+			
+			function fun_blur(){
+				document.getElementById("name").value="快点输入啊！！";
+			}
+		</script>
+	</head>
+
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td>姓名：</td>
+					<td><input type="text" id="name" value="李崇" onfocus="fun_focus()" onblur="fun_blur()"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="提交"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+
+</html>

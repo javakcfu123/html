@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<h3>formnovalidate 规定在提交表单时不对 input元素进行验证</h3>
+		<form>
+			<table>
+				<tr>
+					<td>姓名：</td>
+					<td><input type="text" name="name" /></td>
+				</tr>
+				<tr>
+					<td>邮件：</td>
+					<td><input type="email" name="email" formnovalidate /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="提交"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+
+</html>

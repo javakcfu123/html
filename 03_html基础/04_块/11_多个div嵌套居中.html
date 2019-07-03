@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.div-outer {
+				width: 302px;
+				height: 156px;
+				border: 1px solid blue;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				-moz-transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				-o-transform: translate(-50%, -50%);
+			}
+			.div-inner {
+				width: 300px;
+				height: 50px;
+				border: 1px solid red;
+				text-align: center;/*让div中的文字水平居中*/
+				line-height: 50px;/*让div中的文字内容垂直居中*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="div-outer">
+			<div class="div-inner">集合框架</div>
+			<div class="div-inner">IO流</div>
+			<div class="div-inner">多线程</div>
+		</div>
+		
+	</body>
+
+</html>
